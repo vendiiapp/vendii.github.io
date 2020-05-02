@@ -1,0 +1,219 @@
+/* Layout */
+
+body {
+    background-color: white;
+    background-image: url(images/bkgd-img-min.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-top: 0px;
+}
+
+.container {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 1440px;
+}
+
+main {
+    background-color: transparent;
+    height: 5610px;
+}
+
+footer {
+    background: transparent;
+    height: 684px;
+}
+
+
+/* fonts */
+
+h1 {
+    font-family: Calibri;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 66px;
+    line-height: 103.18%;
+    letter-spacing: -0.333333px;
+    color: white;
+}
+
+h2 {
+    font-family: Calibri;
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 47px;
+    letter-spacing: 0.666667px;
+    color: #233a40;
+}
+
+p {
+    font-family: Calibri;
+    font-size: 25px;
+    line-height: 158.18%;
+    letter-spacing: 0.07px;
+    color: #5a6b6f;
+}
+
+.small-text {
+    font-family: Calibri;
+    font-size: 22px;
+    line-height: 158.18%;
+    letter-spacing: 0.07px;
+    color: #78500f;
+}
+
+.small-text-bold {
+    font-family: Calibri;
+    font-weight: bold;
+    font-size: 22px;
+    line-height: 158.18%;
+    letter-spacing: 0.07px;
+    color: white;
+}
+
+.captions-callouts {
+    font-family: Calibri;
+    font-weight: lighter;
+    font-size: 24px;
+    line-height: 128.18%;
+    letter-spacing: -0.43px;
+    color: #5a6b6f;
+}
+
+
+/* Header */
+
+header {
+    background: transparent;
+    height: 704px;
+    text-align: left;
+}
+
+button {
+    position: absolute;
+    border-radius: 10px;
+    border-style: none;
+    background-color: #4EB283;
+    width: 380px;
+    height: 50px;
+    text-align: center center;
+    display: inline-block;
+    font-size: 23px;
+    font-family: Calibri;
+    color: white;
+    margin: 40px 0px;
+    cursor: pointer;
+}
+
+.header-text-frame {
+    background: transparent;
+    height: 704px;
+    max-width: 461px;
+    margin-left: 250px;
+    padding-top: 40px;
+    float: left;
+}
+
+.header-iphones-frame {
+    background: transparent;
+    width: 659px;
+    margin-right: 40px;
+    float: right;
+}
+
+
+/* Hidden Gems */
+
+.hiddengems {
+    background: transparent;
+    height: 700px;
+    max-width: 942px;
+    margin: auto;
+    text-align: center;
+}
+
+section {
+    display: inline-block;
+    width: 20%;
+    padding: 30px 10px;
+}
+
+
+/* About */
+
+.about {
+    background-image: url(images/about-us-image-min.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 40px;
+    height: 512px;
+    text-align: center;
+    padding-top: 56px;
+    padding-left: 311px;
+    padding-right: 311px;
+}
+
+.text-block {
+    background-color: transparent;
+    color: white;
+}
+
+
+/* Vendii Screenshot & Features*/
+
+.screenshots-features {
+    background: transparent;
+    height: 754px;
+    padding-top: 100px;
+    padding-left: 247px;
+    padding-right: 100px;
+}
+
+.screenshot-picture {
+    height: auto;
+    width: 110%;
+    margin-left: -500px;
+    margin-top: -10%;
+    float: left;
+}
+
+.screenshot-copy {
+    width: 350px;
+    float: right;
+}
+
+
+/* Vendii Uses Cases */
+
+.usecases {
+    background-image: url(images/use\ cases\ photos-min.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 1146px;
+    width: 100vw;
+    margin-left: 50%;
+    transform: translateX(-50%);
+    margin-top: 380px;
+}
+
+.full-width-inside {
+    max-width: var(--contentWidth);
+    margin: 0 auto;
+}
+
+.full-width-inside {
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+.box {
+    position: absolute;
+    width: 747px;
+    height: 463px;
+    left: 569px;
+    top: 350px;
+    background: #FFFFFF;
+    mix-blend-mode: normal;
+    box-shadow: 0px 0px 33px rgba(200, 205, 207, 0.27);
+    border-radius: 40px;
+}
