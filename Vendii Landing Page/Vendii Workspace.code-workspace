@@ -1,0 +1,11 @@
+{
+    "folders": [
+		{
+			"name": "vendii.github.io",
+			"path": ".."
+		}
+	],
+    "settings": {
+        "git.ignoreLimitWarning": true
+    }
+}
